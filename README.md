@@ -1,5 +1,7 @@
 # File descriptions:  
 
+* **Publication data**: Folder containing raw data used in our preprint (and submitted publication) on this work.
+  
 * **LHS_Sampling_And_Parameter_Export.ipynb**: This is a Jupyter notebook which conducts parameter sampling and generates .csv files containing, in each row of each file, a unique set of parameters to run in a simulation.  
 
 * **Param_explore.py**: This is a Python script that iterates through all of the parameter sets contained in a single .csv file, runs the corresponding simulations, and outputs the results (along with a flag of whether or not the simulation reached steady state).  
